@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+
+</head>
+<body>
+    <section class="banner">
+        <div id="bil">
+            <img id="bakhjul" class="hjul" src="./bilder-banner/bakhjul.png">
+            <img id="forhjul" class="hjul" src="./bilder-banner/forhjul.png">
+        </div>
+    </section>
+
+   <script>
+        let bil = document.getElementById("bil");
+        document.body.onclick = () => {
+            bil.style.backgroundImage = "url(./bilder-banner/white-car.png)"
+        }
+    </script>
+
+</body>
+</html>
